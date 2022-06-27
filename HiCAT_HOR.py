@@ -1293,7 +1293,7 @@ def main():
         out_final_pre_merge_path.write('\n')
     out_final_pre_merge_path.close()
 
-    # 迭代处理
+
     print('generation cover distribution for cluster')
     K_output = {}
 
@@ -1313,10 +1313,10 @@ def main():
     for i in result:
         K_output[i[0]] = [i[1], i[2], i[3], i[4],i[5],i[6]]
 
-    # 输出结果
+
     outResult(K_output, outdir)
 
-    # 找出最优结果，转变成标准格式
+
     getBestResult(base_sequence,outdir,show_hor_number,show_hor_min_repeat_number)
 
     all_time_end = datetime.datetime.now()

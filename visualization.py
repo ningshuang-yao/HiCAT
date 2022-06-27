@@ -311,8 +311,6 @@ def getResult(base_sequence,outdir,similarity,show_hor_number,show_hor_min_repea
     block_sequence = readBlockSequence(block_sequence_file)
 
 
-    # 可视化pattern
-    # 输出重复次数
     pattern_static = {}
     pattern_index = 1
 
@@ -333,7 +331,6 @@ def getResult(base_sequence,outdir,similarity,show_hor_number,show_hor_min_repea
     Plot(monomer_sequence, patterns, pattern_static, block_sequence, outdir_best,
          show_number=show_hor_number,show_min_repeat_number=show_hor_min_repeat_number)
 
-    # 输出monomer fa
     monomer_table = readCluster(cluster_file)
     buildMonomerFile(monomer_table, base_sequence, outdir_best)
     buildHORFile(patterns, pattern_static,base_sequence,monomer_sequence,block_sequence,outdir_best)
