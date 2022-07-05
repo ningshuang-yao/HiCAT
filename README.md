@@ -50,7 +50,8 @@ Custom visualization can use visualization.py
 ```
 
 ## Contact
-If you have any questions, please feel free to contact: gaoxian15002970749@163.com
+If you have any questions, please feel free to contact: gaoxian15002970749@163.com, xfyang@xjtu.edu.cn, kaiye@xjtu.edu.cn
+
 
 
 
