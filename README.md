@@ -19,7 +19,35 @@ Development environment: Linux
 Development tool: Pycharm  
 
 ## Usage
- 
+### Run HiCAT
+```Bash
+sh start.sh input_file output_path python_path sd_path monomer_template thread
+```
+
+input_file is input fasta file. e.g. ./testdata/cen21.fa。
+
+output_path is the output directory。
+
+python_path is the path of the python environment.
+
+sd_path is the path of StringDecomposer.
+
+monomer_template is monomer template for StringDecomposer to obtain blocks. e.g. ./testdata/AlphaSat.fa
+
+tread is a number of thread.
+
+Other optional parameters with default can be modified in the start.sh.include min_similarity(0.94), step(0.005), max_hor_len(40)
+
+### Visualization
+HiCAT default visualized the top five HORs with repeat numbers greater than 10 in maximum HOR coverage similarity. 
+
+```Bash
+Custom visualization can use visualization.py
+-r is HiCAT result directory.
+-s is which similarity be visualized.
+-sp is the number of top HORs for visualization.
+-sn is the minimum repeat number of HOR for visualization.
+```
 
 ## Contact
 If you have any questions, please feel free to contact: gaoxian15002970749@163.com
