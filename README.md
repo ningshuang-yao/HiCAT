@@ -45,8 +45,8 @@ HiCAT default visualized the top five HORs with repeat numbers greater than 10 i
 Custom visualization can use visualization.py
 -r is HiCAT result directory.
 -s is which similarity be visualized.
--sp is the number of top HORs for visualization.
--sn is the minimum repeat number of HOR for visualization.
+-sp is the number of top HORs.
+-sn is the minimum repeat number of HOR.
 ```
 
 ## Contact
