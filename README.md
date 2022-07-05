@@ -48,6 +48,25 @@ Custom visualization can use visualization.py
 -sp is the number of top HORs.
 -sn is the minimum repeat number of HOR.
 ```
+### Output
+The result is in out directory。
+out_hor.raw.fa contains each HOR DNA sequnce. 
+
+out_hor.normal.fa contains each normalized HOR DNA sequence. We normalized the raw DNA sequence to one represent HOR. For example, normalized 10_4_6_1_2_6_1_2_7_8_5_3_7_9 to 6_1_2_7_8_5_3_7_9_10_4 in CEN21.
+
+out_monomer.fa contains each monomer DNA sequence.
+
+pattern_static.xls is the HOR repeat number.
+
+pattern_static.pdf is the HOR repeat number in bar plot.
+
+plot_pattern.pdf is the plot for hierarchical centromere structure annotation
+
+out_top_layer.xls is the annotation in top layer.
+
+out_all_layer.xls is the annotation in all layer. Label "top" represent this region is in top layer. Label "cover" represent this region is coverd by a top layer region.
+
+
 
 ## Contact
 If you have any questions, please feel free to contact: gaoxian15002970749@163.com, xfyang@xjtu.edu.cn, kaiye@xjtu.edu.cn
