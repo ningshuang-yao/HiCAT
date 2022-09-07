@@ -49,7 +49,8 @@ Custom visualization can use visualization.py
 -sn is the minimum repeat number of HOR.
 ```
 ### Output
-The result is in out directory。
+The result is in out directory.
+
 out_hor.raw.fa contains each HOR DNA sequnce. 
 
 out_hor.normal.fa contains each normalized HOR DNA sequence. We normalized the raw DNA sequence to one represent HOR. For example, normalized 10_4_6_1_2_6_1_2_7_8_5_3_7_9 to 6_1_2_7_8_5_3_7_9_10_4 in CEN21.
